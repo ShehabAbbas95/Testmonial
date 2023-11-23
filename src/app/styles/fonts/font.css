@@ -1,0 +1,9 @@
+/* styles/font.css */
+
+@font-face {
+  font-family: "gelato-luxe";
+  src: url("./FontsFree-Net-GelatoScript.ttf") format("truetype");
+  /* Adjust the path to match the actual location of your TTF font file */
+  font-weight: normal;
+  font-style: normal;
+}

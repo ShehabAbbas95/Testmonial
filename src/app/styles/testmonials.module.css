@@ -1,0 +1,83 @@
+@import url("./fonts/font.css");
+.main {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent url("/Group_35704.png") 0% 0% no-repeat padding-box;
+  min-height: 1000px;
+}
+
+.header {
+  color: #4d9de0;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: 22px;
+  text-align: center;
+}
+.title {
+  font-size: 60px;
+  font-family: gelato-luxe, sans-serif;
+  color: #ffffff;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: space-between;
+  padding: 0 140px;
+  gap: 16px;
+  margin-top: 100px;
+}
+.card {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: 536px;
+  /* min-height: 465px; */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  padding: 90px 50px 0;
+  font-size: 22px;
+}
+.card:hover {
+  animation: move-up 1s ease-out forwards;
+}
+@keyframes move-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.img {
+  position: absolute;
+  top: -70px;
+  /* width: 144px; */
+  /* height: 144px; */
+  /* box-shadow: 0px 3px 6px #00000029; */
+  /* border: 5px solid white; */
+  border-radius: 50%;
+}
+.author {
+  margin-top: 7px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.job {
+  font-size: 20px;
+  color: #1f2b5f;
+  font-weight: 200;
+  font-family: var(--font-poppins);
+}
+.rate {
+  padding: 25px 0;
+}
